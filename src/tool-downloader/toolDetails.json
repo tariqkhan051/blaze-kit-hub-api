@@ -1,0 +1,44 @@
+[
+  {
+    "title": "SE Module Generator",
+    "description": "The purpose of this app is to generate module structure as per our coding standards. You can use this tool to create Typescript module and their unit tests. Or you can import the design document to create the module folder.",
+    "howTo": "Download and extract the tool given below.<br>Open the .exe file from the downloaded folder to start the app.<br>For further details, go through the README file in the downloaded folder.",
+    "lastUpdatedUrl": "http://localhost:5469/internal-se/tool/lastUpdate?toolName=moduleGenerator",
+    "downloadUrl": "http://localhost:5469/internal-se/tool?toolName=moduleGenerator"
+  },
+  {
+    "title": "Validation Set Maker",
+    "description": "This app generates samples from the postman collection.",
+    "howTo": "Download and extract the tool given below.<br>Open the [Omni Automation Tool].exe file from the downloaded folder to start the app.<br>For further details, go through the README file in the downloaded folder.",
+    "lastUpdatedUrl": "http://localhost:5469/internal-se/tool/lastUpdate?toolName=vsMaker",
+    "downloadUrl": "http://localhost:5469/internal-se/tool?toolName=vsMaker"
+  },
+  {
+    "title": "Postcode Ranges Generator",
+    "description": "This app generates postcodes for the specified ranges.",
+    "howTo": "Download and extract the tool given below.<br>Open the .exe file from the downloaded folder to start the app.",
+    "lastUpdatedUrl": "http://localhost:5469/internal-se/tool/lastUpdate?toolName=postcodeRanges",
+    "downloadUrl": "http://localhost:5469/internal-se/tool?toolName=postcodeRanges"
+  },
+  {
+    "title": "SE Address Generator",
+    "description": "This app generates ShipEngine Addresses for the specified country.",
+    "howTo": "Download and extract the tool given below.<br>Open the .exe file from the downloaded folder to start the app.",
+    "lastUpdatedUrl": "http://localhost:5469/internal-se/tool/lastUpdate?toolName=addressGenerator",
+    "downloadUrl": "http://localhost:5469/internal-se/tool?toolName=addressGenerator"
+  },
+  {
+    "title": "SE Module Validator",
+    "description": "The purpose of this app is to validate the GUIDs of a connect module.",
+    "howTo": "Download and extract the tool given below.<br>Open the .exe file from the downloaded folder to start the app.",
+    "lastUpdatedUrl": "http://localhost:5469/internal-se/tool/lastUpdate?toolName=moduleValidator",
+    "downloadUrl": "http://localhost:5469/internal-se/tool?toolName=moduleValidator"
+  },
+  {
+    "title": "Design To JS Module",
+    "description": "The purpose of this app is to generate Javascript module structure as per our coding standards.",
+    "howTo": "Download and extract the tool given below.<br>Open the .exe file from the downloaded folder to start the app.",
+    "lastUpdatedUrl": "http://localhost:5469/internal-se/tool/lastUpdate?toolName=designToJs",
+    "downloadUrl": "http://localhost:5469/internal-se/tool?toolName=designToJs"
+  }
+]
