@@ -1,0 +1,68 @@
+{
+  "port": "5469",
+  "https": false,
+  "addressGenerator": {
+    "isActive": true,
+    "webUrl": "https://www.fakeaddresscopy.com",
+    "retryAttempts": 1
+  },
+  "moduleGenerator": {
+    "isActive": true
+  },
+  "performanceCalculator": { "isActive": true },
+  "samplesGenerator": {
+    "isActive": true,
+    "defaultMode": "writeFile",
+    "defaultFileExtension": "txt"
+  },
+  "toolDownloader": {
+    "isActive": true,
+    "toolDetails": [
+      {
+        "toolName": "moduleGenerator",
+        "zipFileName": "moduleGenerator",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\ShipEngine\\SE Tool",
+        "trackingFile": "moduleGeneratorInfo.json"
+      },
+      {
+        "toolName": "vsMaker",
+        "zipFileName": "vsMaker",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Documents\\ShipEngine\\ValidationSetMaker - Connect Module\\VS Generator",
+        "trackingFile": "vsMakerInfo.json"
+      },
+      {
+        "toolName": "branchNameCreator",
+        "zipFileName": "branchNameCreator",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\ShipEngine\\Branch Creator",
+        "trackingFile": "branchNameCreatorInfo.json"
+      },
+      {
+        "toolName": "postcodeRanges",
+        "zipFileName": "postcodeRanges",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\ShipEngine\\Postcode Ranges",
+        "trackingFile": "postcodeRangesInfo.json"
+      },
+      {
+        "toolName": "addressGenerator",
+        "zipFileName": "addressGenerator",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Documents\\ShipEngine\\InternalApplications\\address-generator\\AddressGeneratorUtility",
+        "trackingFile": "addressGeneratorInfo.json"
+      },
+      {
+        "toolName": "moduleValidator",
+        "zipFileName": "moduleValidator",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\ShipEngine\\Module Validator",
+        "trackingFile": "moduleValidatorInfo.json"
+      },
+      {
+        "toolName": "designToJs",
+        "zipFileName": "designToJs",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\ShipEngine\\Design to Code",
+        "trackingFile": "designToJsInfo.json"
+      }
+    ]
+  },
+  "sumoLogsApi": { "isActive": true },
+  "usefulLinksApi": { "isActive": true },
+  "seCredentialsApi": { "isActive": true }
+}
