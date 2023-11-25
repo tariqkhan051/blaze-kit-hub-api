@@ -1,0 +1,23 @@
+[
+    {
+        "team": "team1",
+        "user": {
+            "username": "",
+            "password": ""
+        }
+    },
+    {
+        "team": "team2",
+        "user": {
+            "username": "",
+            "password": ""
+        }
+    },
+    {
+        "team": "team3",
+        "user": {
+            "username": "",
+            "password": ""
+        }
+    }
+]

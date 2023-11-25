@@ -68,7 +68,7 @@ function formatDate(timestampString) {
 }
 
 function getUserByTeam(teamName) {
-  const fileContents = fs.readFileSync('teamData.json', 'utf-8');
+  const fileContents = fs.readFileSync('sumo-logic-api-keys.json', 'utf-8');
   const teamData = JSON.parse(fileContents);
   // Loop through the array and check if the "team" property matches the desired team name
   for (const team of teamData) {

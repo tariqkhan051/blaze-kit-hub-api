@@ -1,0 +1,8 @@
+{
+   "auth_cd": "",
+   "auth_key": "",
+   "companyId": "",
+   "iraiDatetime": "",
+   "clientIp": "",
+   "tradingId": ""
+}

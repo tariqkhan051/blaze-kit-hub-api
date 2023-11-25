@@ -42,7 +42,7 @@ let opts = {
 };
 
 pm.sendRequest({
-    url: 'http://bari-002:5469/internal-se/samples/write',
+    url: 'http://bari-002:5469/api/samples/write',
     method: 'POST',
     header: 'Content-Type:application/json',
     body: {

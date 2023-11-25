@@ -1,7 +1,7 @@
 # Performance calculator
 
 ## Steps to use
-1. Send a POST request to the endpoint (internal-se/perf) with a request similar to the one given below. 
+1. Send a POST request to the endpoint (api/perf) with a request similar to the one given below. 
 
 ## Sample Request
 
