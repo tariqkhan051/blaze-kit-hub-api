@@ -120,6 +120,7 @@ dist
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
+.vs
 .vscode-test
 
 # yarn v2
@@ -129,7 +130,7 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-package-lock.json
+package-lock
 tracked-data.json
 logs
 nssm-2.24
