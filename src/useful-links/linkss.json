@@ -1,0 +1,122 @@
+[
+  {
+    "name": "SE Staging API",
+    "details": "API documentation to help with testing on SE Staging environment.",
+    "url": "https://shipengine.github.io/shipengine-openapi/#section/Getting-Started"
+  },
+  {
+    "name": "Native Rating Doc",
+    "details": "Documentation to help understand Native rating.",
+    "url": "https://connect.shipengine.com/native-rating/"
+  },
+  {
+    "name": "Module Deployment on Octopus",
+    "details": "",
+    "url": "https://octoprod.sslocal.com/app#/Spaces-1/projects/integrations-modules/deployments"
+  },
+  {
+    "name": "Registry Deployment on Octopus",
+    "details": "",
+    "url": "https://octoprod.sslocal.com/app#/Spaces-1/projects/registry-reader/deployments"
+  },
+  {
+    "name": "SE V1 Environment",
+    "details": "Documentation to help understand and implement code of ship engine methods.",
+    "url": "https://connect-v1.shipengine.com/docs/reference/methods/create-shipment"
+  },
+  {
+    "name": "ShipStation Dev Environment",
+    "details": "Documentation to help with testing on Shipstation Dev environment.",
+    "url": "https://shipstation.github.io/integrations-shipping/carrierapi-redoc.html#operation/Create%20a%20Label"
+  },
+  {
+    "name": "SE Dev Environment",
+    "details": "API documentation to help with testing on SE connect Dev environment.",
+    "url": "https://connect.shipengine.com/shipping/"
+  },
+  {
+    "name": "Staging Environment",
+    "details": "API documentation to understand shipengine staging API methods.",
+    "url": "https://shipengine.github.io/shipengine-openapi/#section/Getting-Started"
+  },
+  {
+    "name": "Staging Environment Docs",
+    "details": "Documentation to understand shipengine staging API in detail.",
+    "url": "https://www.shipengine.com/docs/getting-started/"
+  },
+  {
+    "name": "ShipStation Dev website",
+    "details": "Test dev environment changes on this website when PR is not merged.",
+    "url": "https://ship-devss111.sslocal.com/"
+  },
+  {
+    "name": "ShipStation Staging website",
+    "details": "Test stage environment changes on this website when PR is merged.",
+    "url": "https://ship0.shipstation.com/"
+  },
+  {
+    "name": "Order App",
+    "details": "Documentation to help understand and create order app.",
+    "url": "https://connect.shipengine.com/orders/"
+  },
+  {
+    "name": "Online Auto-increment String Generator",
+    "details": "",
+    "url": "http://www.mynikko.com/tools/tool_incrementstr.html"
+  },
+  {
+    "name": "ZPL Viewer",
+    "details": "Label viewer in ZPL format.",
+    "url": "http://labelary.com/viewer.html"
+  },
+  {
+    "name": "Base64 to PDF",
+    "details": "Convert Base64 to PDF format.",
+    "url": "https://base64.guru/converter/decode/pdf"
+  },
+  {
+    "name": "Free Online Barcode Reader",
+    "details": "Online tool to read barcode.",
+    "url": "https://online-barcode-reader.inliteresearch.com/"
+  },
+  {
+    "name": "Adding Registry for brand new Connect module",
+    "details": "Documentation to understand how to import connect apps from data manager to registry repository.",
+    "url": "https://auctane.atlassian.net/wiki/spaces/IN/pages/2445148497/Importing+Connect+apps+from+the+Data+Manager+into+the+Registry"
+  },
+  {
+    "name": "DDE wiki",
+    "details": "Documentation to understand Dynamic Dev Environments (DDE)",
+    "url": "https://auctane.atlassian.net/wiki/spaces/DEVOPS/pages/555581444/Dynamic+Dev+Environments+DDE"
+  },
+  {
+    "name": "Engineering rules",
+    "details": "Engineering rules for SEC integrations",
+    "url": "https://auctane.atlassian.net/wiki/spaces/GOLD/pages/3784278062/Engineering+rules+for+SEC+integrations"
+  },
+  {
+    "name": "Ways of working",
+    "details": "Documentation to understand processes, workflow, transitions and request handling",
+    "url": "https://auctane.atlassian.net/wiki/spaces/GOLD/pages/3806335195/Ways+of+working#1.-Processes-description"
+  },
+  {
+    "name": "Modules Documentation (CARDEV space)",
+    "details": "SE carrier module documentation.",
+    "url": "https://auctane.atlassian.net/wiki/spaces/CARDEV/pages/3219657549/Carrier+s+module+documentation+V2"
+  },
+  {
+    "name": "Modules Documentation (Google Drive)",
+    "details": "Google Drive folder for SE carrier module documentation.",
+    "url": "https://drive.google.com/drive/folders/1cq1cQRgwTFw4ram5Cma4LYJkXfgzodpS"
+  },
+  {
+    "name": "Registry Reader Service (Stage)",
+    "details": "Registry Reader Service.",
+    "url": "https://ips-registry-reader-service-stage.kubedev.sslocal.com/"
+  },
+  {
+    "name": "Registry Reader Service (Prod)",
+    "details": "Registry Reader Service.",
+    "url": "https://ips-registry-reader-service-prod.kube.sslocal.com/"
+  }
+]
