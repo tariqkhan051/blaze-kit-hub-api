@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "lib",
+    "sourceMap": true,
+    "skipLibCheck": true
+  },
+  "types": ["node", "jest"],
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "src/api/__mocks__"]
+}

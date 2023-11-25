@@ -23,7 +23,7 @@ module.exports = {
         "Creates samples for postman collection with the req/response/logs/labels files."
     },
     {
-      name: "sumo-logs-api",
+      name: "sumo-logic-api",
       status: "",
       details: "Searches the logs in sumo logic and returns the results."
     },

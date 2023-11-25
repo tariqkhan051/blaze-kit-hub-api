@@ -6,7 +6,7 @@ const MODULE_GENERATOR_API_PATH = `${SERVICE_PATH}/module-generator`;
 const TOOL_DOWNLOADER_API_PATH = `${SERVICE_PATH}/tool`;
 const SUMO_LOGS_API_PATH = `${SERVICE_PATH}/sumoLogs`;
 const USEFUL_LINKS_API_PATH = `${SERVICE_PATH}/useful-links`;
-const CREDENTIALS_MANAGER_API_PATH = `${SERVICE_PATH}/se-credentials`;
+const CREDENTIALS_MANAGER_API_PATH = `${SERVICE_PATH}/credentials-manager`;
 
 const ENDPOINTS = {
   LOGS: '/logs',
@@ -39,7 +39,7 @@ const API_NAMES = {
   ADDRESS_GENERATOR: 'address-generator',
   SAMPLES_GENERATOR: 'samples-generator',
   MODULE_GENERATOR: 'module-generator',
-  SUMO_LOGS_API: 'sumo-logs-api'
+  SUMO_LOGS_API: 'sumo-logic-api'
 };
 
 const ERROR_MSGS = {

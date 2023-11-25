@@ -1,0 +1,7 @@
+{
+   "auth_cd": "",
+   "auth_key": "",
+   "companyId": "",
+   "tradingId": "",
+   "qrcodeType": "01"
+}
