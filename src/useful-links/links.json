@@ -1,1 +1,196 @@
-[{"name":"SE Staging API","details":"API documentation to help with testing on SE Staging environment.","url":"https://shipengine.github.io/shipengine-openapi/#section/Getting-Started"},{"name":"Native Rating Doc","details":"Documentation to help understand Native rating.","url":"https://connect.shipengine.com/native-rating/"},{"name":"Module Deployment on Octopus","details":"","url":"https://octoprod.sslocal.com/app#/Spaces-1/projects/integrations-modules/deployments"},{"name":"Registry Deployment on Octopus","details":"","url":"https://octoprod.sslocal.com/app#/Spaces-1/projects/registry-reader/deployments"},{"name":"SE V1 Environment","details":"Documentation to help understand and implement code of ship engine methods.","url":"https://connect-v1.shipengine.com/docs/reference/methods/create-shipment"},{"name":"ShipStation Dev Environment","details":"Documentation to help with testing on Shipstation Dev environment.","url":"https://shipstation.github.io/integrations-shipping/carrierapi-redoc.html#operation/Create%20a%20Label"},{"name":"SE Dev Environment","details":"API documentation to help with testing on SE connect Dev environment.","url":"https://connect.shipengine.com/shipping/"},{"name":"Staging Environment","details":"API documentation to understand shipengine staging API methods.","url":"https://shipengine.github.io/shipengine-openapi/#section/Getting-Started"},{"name":"Staging Environment Docs","details":"Documentation to understand shipengine staging API in detail.","url":"https://www.shipengine.com/docs/getting-started/"},{"name":"ShipStation Dev website","details":"Test dev environment changes on this website when PR is not merged.","url":"https://ship-devss111.sslocal.com/"},{"name":"ShipStation Staging website","details":"Test stage environment changes on this website when PR is merged.","url":"https://ship0.shipstation.com/"},{"name":"Order App","details":"Documentation to help understand and create order app.","url":"https://connect.shipengine.com/orders/"},{"name":"Online Auto-increment String Generator","details":"","url":"http://www.mynikko.com/tools/tool_incrementstr.html"},{"name":"ZPL Viewer","details":"Label viewer in ZPL format.","url":"http://labelary.com/viewer.html"},{"name":"Base64 to PDF","details":"Convert Base64 to PDF format.","url":"https://base64.guru/converter/decode/pdf"},{"name":"Free Online Barcode Reader","details":"Online tool to read barcode.","url":"https://online-barcode-reader.inliteresearch.com/"},{"name":"Adding Registry for brand new Connect module","details":"Documentation to understand how to import connect apps from data manager to registry repository.","url":"https://auctane.atlassian.net/wiki/spaces/IN/pages/2445148497/Importing+Connect+apps+from+the+Data+Manager+into+the+Registry"},{"name":"DDE wiki","details":"Documentation to understand Dynamic Dev Environments (DDE)","url":"https://auctane.atlassian.net/wiki/spaces/DEVOPS/pages/555581444/Dynamic+Dev+Environments+DDE"},{"name":"Engineering rules","details":"Engineering rules for SEC integrations","url":"https://auctane.atlassian.net/wiki/spaces/GOLD/pages/3784278062/Engineering+rules+for+SEC+integrations"},{"name":"Ways of working","details":"Documentation to understand processes, workflow, transitions and request handling","url":"https://auctane.atlassian.net/wiki/spaces/GOLD/pages/3806335195/Ways+of+working#1.-Processes-description"},{"name":"Modules Documentation (CARDEV space)","details":"SE carrier module documentation.","url":"https://auctane.atlassian.net/wiki/spaces/CARDEV/pages/3219657549/Carrier+s+module+documentation+V2"},{"name":"Modules Documentation (Google Drive)","details":"Google Drive folder for SE carrier module documentation.","url":"https://drive.google.com/drive/folders/1cq1cQRgwTFw4ram5Cma4LYJkXfgzodpS"},{"name":"Registry Reader Service (Stage)","details":"Registry Reader Service.","url":"https://ips-registry-reader-service-stage.kubedev.sslocal.com/"},{"name":"Registry Reader Service (Prod)","details":"Registry Reader Service.","url":"https://ips-registry-reader-service-prod.kube.sslocal.com/"},{"name":"Connect v2 to v4","url":"https://connect.shipengine.com/getting-started/v2-v4-upgrade/","details":"Documentation on upgrading connect module from connect v2 to v4"},{"name":"SE Connect Data Manager","url":"https://shipengine-connect-data-manager-prod.kube.seplocal.com/redoc/index.html?url=/swagger/v1/swagger.json","details":"API documentation for SE Connect Data Manager - Production. (VPN required)"},{"name":"Going through duration and logs","url":"https://auctane.atlassian.net/wiki/spaces/GOLD/pages/3969220732/Going+through+duration+and+logs","details":"Guide on getting logs for SE Connect integrations using NewRelic and SumoLogic."},{"name":"Doctane","url":"https://docs.auctane.dev/Integrations/?carrier=1&id=e75ee40c-c66c-4f1f-be1a-8b69780f7e8c","details":"Auctane Dev Docs"},{"name":"SE Self Integrations","url":"https://auctane.atlassian.net/jira/dashboards/11862","details":"Self integration SE modules list"},{"name":"Shippy","url":"http://shippy.kubedev.sslocal.com/","details":"Shippy"},{"name":"SE Carrier Integration","url":"https://help.shipengine.com/hc/en-us/sections/4406863140507-Carrier-Integrations","details":"List of ShipEngine Carrier integrations"},{"name":"ShipStation Carrier Integrations","url":"https://help.shipstation.com/hc/en-us/sections/360004018932-Carrier-Integrations","details":"List of ShipStation Carrier Integrations"},{"name":"Add Sentry for module","url":"https://auctane.atlassian.net/wiki/spaces/GOLD/pages/3835890785/Add+Sentry+for+module","details":"Documentation on how to add sentry for connect modules. "},{"name":"Dynamo DB","url":"https://auctane.atlassian.net/wiki/spaces/GOLD/pages/3907977634/Using+DynamoDB+with+Connect+module","details":"Documentation on how to use Dynamo DB with connect modules"},{"name":"Feature flags for connect apps","url":"https://auctane.atlassian.net/wiki/spaces/GOLD/pages/4005954246/Feature+flags+for+Connect+apps","details":"Documentation on adding feature flags to a connect app"},{"name":"Deploying a Connect Carrier App to Production","url":"https://auctane.atlassian.net/wiki/spaces/IN/pages/3595633200/Deploying+a+Connect+Carrier+App+Change+to+Production","details":"Steps for deploying a Connect Carrier App Change to Production"},{"name":"SS Infrastructure And DDEs","url":"https://docs.google.com/document/d/1nFnL4TEnfn-yliBprdsf0tQjF93YJC_r_uwGpw7sy0o/edit#heading=h.961lkn70x5h","details":"ShipStation Infrastructure And DDEs"},{"name":"Shippy Dashboard","url":"http://shippy.kubedev.sslocal.com/","details":"Shippy dashboard to check the current status of deployments"},{"name":"ShipEngine Carriers","url":"https://www.shipengine.com/integrations/?category=carriers","details":"ShipEngine Carriers"},{"name":"INTGP Fact sheets","url":"https://auctane.atlassian.net/wiki/spaces/SDCGP/pages/3603366253/Connect+Post+Dev+docs+Fact+Sheets","details":"Fact sheets for connect modules developed under INTGP cases"}]
+[
+  {
+    "name": "Introduction to TypeScript",
+    "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+    "details": "A comprehensive guide to getting started with TypeScript"
+  },
+  {
+    "name": "Test Automation Best Practices",
+    "url": "https://www.softwaretestinghelp.com/test-automation-best-practices/",
+    "details": "Best practices for effective test automation in software testing"
+  },
+  {
+    "name": "Visual Studio Code Tips and Tricks",
+    "url": "https://code.visualstudio.com/docs/getstarted/tips-and-tricks",
+    "details": "Useful tips and tricks for improving productivity in Visual Studio Code"
+  },
+  {
+    "name": "JIRA Software Documentation",
+    "url": "https://support.atlassian.com/jira-software-cloud/docs/",
+    "details": "Documentation for JIRA Software, a popular project management tool"
+  },
+  {
+    "name": "Effective Git Branching Models",
+    "url": "https://nvie.com/posts/a-successful-git-branching-model/",
+    "details": "A successful Git branching model for collaborative development"
+  },
+  {
+    "name": "Introduction to Docker",
+    "url": "https://www.docker.com/resources/what-container",
+    "details": "Learn about containerization and the basics of Docker"
+  },
+  {
+    "name": "Kanban Explained",
+    "url": "https://leankit.com/learn/kanban/what-is-kanban/",
+    "details": "Understanding the principles and practices of Kanban in agile development"
+  },
+  {
+    "name": "Python Official Documentation",
+    "url": "https://docs.python.org/3/",
+    "details": "Official documentation for the Python programming language"
+  },
+  {
+    "name": "Selenium WebDriver Tutorial",
+    "url": "https://www.selenium.dev/documentation/en/webdriver/",
+    "details": "A tutorial on Selenium WebDriver for browser automation"
+  },
+  {
+    "name": "Introduction to SQL",
+    "url": "https://www.w3schools.com/sql/sql_intro.asp",
+    "details": "A beginner's guide to SQL (Structured Query Language)"
+  },
+  {
+    "name": "Agile Manifesto Principles",
+    "url": "https://agilemanifesto.org/principles.html",
+    "details": "Understanding the principles behind the Agile Manifesto"
+  },
+  {
+    "name": "GraphQL Introduction",
+    "url": "https://graphql.org/learn/",
+    "details": "Learn about GraphQL, a query language for APIs"
+  },
+  {
+    "name": "Google PageSpeed Insights",
+    "url": "https://developers.google.com/speed/pagespeed/insights/",
+    "details": "Tools and documentation to improve web page speed"
+  },
+  {
+    "name": "Cybersecurity Basics",
+    "url": "https://www.cyber.gov.au/acsc/view-all-content/publications/cybersecurity-strategy",
+    "details": "An overview of cybersecurity strategy and best practices"
+  },
+  {
+    "name": "RESTful API Design Best Practices",
+    "url": "https://docs.microsoft.com/en-us/azure/architecture/best-practices/api-design",
+    "details": "Best practices for designing RESTful APIs"
+  },
+  {
+    "name": "Introduction to Machine Learning",
+    "url": "https://www.ibm.com/cloud/learn/machine-learning",
+    "details": "An introduction to machine learning and its applications"
+  },
+  {
+    "name": "Scrum Guide",
+    "url": "https://www.scrumguides.org/scrum-guide.html",
+    "details": "The official guide to Scrum framework and principles"
+  },
+  {
+    "name": "Angular Documentation",
+    "url": "https://angular.io/docs",
+    "details": "Official documentation for the Angular framework"
+  },
+  {
+    "name": "React.js Tutorial",
+    "url": "https://reactjs.org/tutorial/tutorial.html",
+    "details": "A step-by-step tutorial for learning React.js"
+  },
+  {
+    "name": "Django Web Framework Documentation",
+    "url": "https://docs.djangoproject.com/en/3.2/",
+    "details": "Official documentation for the Django web framework"
+  },
+  {
+    "name": "Code Review Best Practices",
+    "url": "https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html",
+    "details": "Best practices for effective code reviews"
+  },
+  {
+    "name": "UX Design Fundamentals",
+    "url": "https://www.nngroup.com/articles/ten-usability-heuristics/",
+    "details": "Jakob Nielsen's 10 Usability Heuristics for user experience design"
+  },
+  {
+    "name": "MongoDB Documentation",
+    "url": "https://docs.mongodb.com/manual/",
+    "details": "Official documentation for MongoDB, a NoSQL database"
+  },
+  {
+    "name": "Cypress.io - End-to-End Testing",
+    "url": "https://docs.cypress.io/guides/overview/why-cypress.html",
+    "details": "An overview of Cypress.io for end-to-end testing"
+  },
+  {
+    "name": "GraphQL vs. REST",
+    "url": "https://www.apollographql.com/blog/graphql-vs-rest-5d425123e34b/",
+    "details": "Comparing GraphQL and REST for API development"
+  },
+  {
+    "name": "DevOps Practices",
+    "url": "https://aws.amazon.com/devops/what-is-devops/",
+    "details": "Understanding the principles of DevOps practices"
+  },
+  {
+    "name": "Linux Command Line Basics",
+    "url": "https://linuxcommand.org/",
+    "details": "A guide to Linux command line basics for developers and system administrators"
+  },
+  {
+    "name": "Google Cloud Platform Documentation",
+    "url": "https://cloud.google.com/docs",
+    "details": "Official documentation for Google Cloud Platform services"
+  },
+  {
+    "name": "Docker Compose Documentation",
+    "url": "https://docs.docker.com/compose/",
+    "details": "Official documentation for Docker Compose"
+  },  {
+    "name": "Vue.js Documentation",
+    "url": "https://vuejs.org/",
+    "details": "Official documentation for the Vue.js framework"
+  },
+  {
+    "name": "Rust Programming Language Book",
+    "url": "https://doc.rust-lang.org/book/",
+    "details": "The official book for learning the Rust programming language"
+  },
+  {
+    "name": "TensorFlow Tutorials",
+    "url": "https://www.tensorflow.org/tutorials",
+    "details": "Hands-on tutorials for TensorFlow, an open-source machine learning framework"
+  },
+  {
+    "name": "Swift Programming Language Guide",
+    "url": "https://docs.swift.org/swift-book/",
+    "details": "Official guide for the Swift programming language"
+  },
+  {
+    "name": "C# Programming Guide",
+    "url": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+    "details": "Official guide for the C# programming language"
+  },
+  {
+    "name": "PowerShell Documentation",
+    "url": "https://docs.microsoft.com/en-us/powershell/",
+    "details": "Official documentation for PowerShell scripting language"
+  },
+  {
+    "name": "Algorithms and Data Structures Visualizations",
+    "url": "https://visualgo.net/en",
+    "details": "Visualizations of algorithms and data structures for better understanding"
+  },
+  {
+    "name": "Kubernetes Documentation",
+    "url": "https://kubernetes.io/docs/home/",
+    "details": "Official documentation for Kubernetes container orchestration"
+  },
+  {
+    "name": "AWS Lambda Developer Guide",
+    "url": "https://docs.aws.amazon.com/lambda/latest/dg/welcome.html",
+    "details": "Guide for developing serverless functions using AWS Lambda"
+  },
+  {
+    "name": "GraphQL Official Website",
+    "url": "https://graphql.org/",
+    "details": "Official website for GraphQL, a query language for APIs"
+  }
+]

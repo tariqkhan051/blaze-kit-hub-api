@@ -21,43 +21,43 @@
       {
         "toolName": "moduleGenerator",
         "zipFileName": "moduleGenerator",
-        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\ShipEngine\\SE Tool",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\Tool",
         "trackingFile": "moduleGeneratorInfo.json"
       },
       {
         "toolName": "vsMaker",
         "zipFileName": "vsMaker",
-        "folderPath": "\\\\192.168.1.3\\Shared\\Documents\\ShipEngine\\ValidationSetMaker - Connect Module\\VS Generator",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Documents\\ValidationSetMaker - Connect Module\\VS Generator",
         "trackingFile": "vsMakerInfo.json"
       },
       {
         "toolName": "branchNameCreator",
         "zipFileName": "branchNameCreator",
-        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\ShipEngine\\Branch Creator",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\Branch Creator",
         "trackingFile": "branchNameCreatorInfo.json"
       },
       {
         "toolName": "postcodeRanges",
         "zipFileName": "postcodeRanges",
-        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\ShipEngine\\Postcode Ranges",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\Postcode Ranges",
         "trackingFile": "postcodeRangesInfo.json"
       },
       {
         "toolName": "addressGenerator",
         "zipFileName": "addressGenerator",
-        "folderPath": "\\\\192.168.1.3\\Shared\\Documents\\ShipEngine\\InternalApplications\\address-generator\\AddressGeneratorUtility",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Documents\\InternalApplications\\address-generator\\AddressGeneratorUtility",
         "trackingFile": "addressGeneratorInfo.json"
       },
       {
         "toolName": "moduleValidator",
         "zipFileName": "moduleValidator",
-        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\ShipEngine\\Module Validator",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\Module Validator",
         "trackingFile": "moduleValidatorInfo.json"
       },
       {
         "toolName": "designToJs",
         "zipFileName": "designToJs",
-        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\ShipEngine\\Design to Code",
+        "folderPath": "\\\\192.168.1.3\\Shared\\Khadija.Amjad\\Design to Code",
         "trackingFile": "designToJsInfo.json"
       }
     ]

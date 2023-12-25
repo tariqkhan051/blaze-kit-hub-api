@@ -9,11 +9,11 @@
     "request": {
         "transaction_id": "08082113-9548-49a8-bc99-b0afe77a09d5",
         "metadata": {
-            "username": "200900001",
-            "password": "9886142696",
-            "clientId": "88888888889000"
+            "username": "test",
+            "password": "test",
+            "clientId": "test"
         },
-        "service_code": "dpd_classic_international",
+        "service_code": "test",
         "bill_shipping_to": {
             "bill_to_party": "shipper"
         },
@@ -63,12 +63,12 @@
     "endpoints": [
         {
             "enpoint1": {
-                "url": "http://bari-002:3937/dpd-romania-ts/CreateLabel"
+                "url": "http://blazekithub:3937/CreateLabel"
             }
         },
         {
             "enpoint2": {
-                "url": "http://bari-002:3937/dpd-romania-master/CreateLabel"
+                "url": "http://blazekithub:3938/CreateLabel"
             }
         }
     ],

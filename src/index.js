@@ -18,7 +18,7 @@ const {
   TOOL_DOWNLOADER_API_PATH,
   MODULE_GENERATOR_API_PATH,
   USEFUL_LINKS_API_PATH,
-  SE_CREDENTIALS_API_PATH
+  CREDENTIALS_MANAGER_API_PATH
 } = require('./helpers/constants');
 const {
   getApiStatus,
@@ -33,16 +33,16 @@ const { checkPerf } = require('./performance-calculator');
 const { getAddress, addressCall } = require('./address-generator');
 const { searchLogs, getMessagesForJob } = require('./sumo-logic');
 const {
-  getSETool,
+  getTool,
   getLastUpdatedInfo,
   getToolsData
 } = require('./tool-downloader');
 const { getUsefulLinks, addUsefulLink } = require('./useful-links');
 const {
-  getSECredentials,
-  addSECredentials,
-  deleteSECredentials,
-  updateSECredentials
+  getCredentials,
+  addCredentials,
+  deleteCredentials,
+  updateCredentials
 } = require('./credentials-manager');
 
 // Change the limits according to your response size
@@ -221,7 +221,7 @@ app.post(`${SAMPLES_API_PATH}${ENDPOINTS.CLEAR_LOGS}`, function (req, res) {
 //#region TOOL DOWNLOADER
 app.get(TOOL_DOWNLOADER_API_PATH, function (req, res) {
   if (config.toolDownloader.isActive || false) {
-    getSETool(req, res);
+    getTool(req, res);
   } else {
     res.status(404).send(ERROR_MSGS.SERVICE_INACTIVE);
   }
@@ -293,33 +293,33 @@ app.post(USEFUL_LINKS_API_PATH, function (req, res) {
 //#endregion USEFUL LINKS
 
 //#region CREDENTIALS_MANAGER
-app.get(SE_CREDENTIALS_API_PATH, function (req, res) {
+app.get(CREDENTIALS_MANAGER_API_PATH, function (req, res) {
   if (config.seCredentialsApi.isActive || false) {
-    getSECredentials(req, res);
+    getCredentials(req, res);
   } else {
     res.status(404).send(ERROR_MSGS.SERVICE_INACTIVE);
   }
 });
 
-app.post(SE_CREDENTIALS_API_PATH, function (req, res) {
+app.post(CREDENTIALS_MANAGER_API_PATH, function (req, res) {
   if (config.seCredentialsApi.isActive || false) {
-    addSECredentials(req, res);
+    addCredentials(req, res);
   } else {
     res.status(404).send(ERROR_MSGS.SERVICE_INACTIVE);
   }
 });
 
-app.delete(`${SE_CREDENTIALS_API_PATH}/:id`, function (req, res) {
+app.delete(`${CREDENTIALS_MANAGER_API_PATH}/:id`, function (req, res) {
   if (config.seCredentialsApi.isActive || false) {
-    deleteSECredentials(req, res);
+    deleteCredentials(req, res);
   } else {
     res.status(404).send(ERROR_MSGS.SERVICE_INACTIVE);
   }
 });
 
-app.put(`${SE_CREDENTIALS_API_PATH}/:id`, function (req, res) {
+app.put(`${CREDENTIALS_MANAGER_API_PATH}/:id`, function (req, res) {
   if (config.seCredentialsApi.isActive || false) {
-    updateSECredentials(req, res);
+    updateCredentials(req, res);
   } else {
     res.status(404).send(ERROR_MSGS.SERVICE_INACTIVE);
   }
