@@ -12,8 +12,8 @@
 
 ```
   {
-    "name": "Native Rating Doc",
-    "details": "Documentation to help understand Native rating.",
-    "url": "https://connect.shipengine.com/native-rating/"
+    "name": "Docker Compose Documentation",
+    "details": "Documentation to help understand Docker Compose.",
+    "url": "https://docs.docker.com/compose/"
   }
 ```

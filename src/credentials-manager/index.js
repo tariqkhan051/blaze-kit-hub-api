@@ -3,7 +3,7 @@ const path = require('path');
 const { ERROR_MSGS } = require('../helpers/constants');
 const { randomUUID } = require('crypto');
 
-const getSECredentials = (req, res) => {
+const getCredentials = (req, res) => {
   try {
     const buffer = fs.readFileSync(path.join(__dirname, 'credentials.json'));
     const credentials = JSON.parse(buffer);
@@ -14,7 +14,7 @@ const getSECredentials = (req, res) => {
   }
 };
 
-const addSECredentials = (req, res) => {
+const addCredentials = (req, res) => {
   try {
     const buffer = fs.readFileSync(path.join(__dirname, 'credentials.json'));
     const credentials = JSON.parse(buffer);
@@ -50,7 +50,7 @@ const addSECredentials = (req, res) => {
   }
 };
 
-const deleteSECredentials = (req, res) => {
+const deleteCredentials = (req, res) => {
   try {
     const buffer = fs.readFileSync(path.join(__dirname, 'credentials.json'));
     const credentials = JSON.parse(buffer);
@@ -76,7 +76,7 @@ const deleteSECredentials = (req, res) => {
   }
 };
 
-const updateSECredentials = (req, res) => {
+const updateCredentials = (req, res) => {
   try {
     const buffer = fs.readFileSync(path.join(__dirname, 'credentials.json'));
     const credentials = JSON.parse(buffer);
@@ -131,8 +131,8 @@ const updateSECredentials = (req, res) => {
 };
 
 module.exports = {
-  getSECredentials,
-  addSECredentials,
-  deleteSECredentials,
-  updateSECredentials
+  getCredentials,
+  addCredentials,
+  deleteCredentials,
+  updateCredentials,
 };

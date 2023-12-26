@@ -3,12 +3,12 @@ module.exports = {
     {
       name: "address-generator",
       status: "",
-      details: "Generates SE address object for the provided country code."
+      details: "Generates address object for the provided country code."
     },
     {
       name: "module-generator",
       status: "",
-      details: "Generates a carrier module with the provided data."
+      details: "Generates a mock api module with the provided information."
     },
     {
       name: "performance-calculator",

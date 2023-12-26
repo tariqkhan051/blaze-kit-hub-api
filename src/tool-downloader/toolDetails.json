@@ -1,6 +1,6 @@
 [
   {
-    "title": "SE Module Generator",
+    "title": "Module Generator",
     "description": "The purpose of this app is to generate module structure as per our coding standards. You can use this tool to create Typescript module and their unit tests. Or you can import the design document to create the module folder.",
     "howTo": "Download and extract the tool given below.<br>Open the .exe file from the downloaded folder to start the app.<br>For further details, go through the README file in the downloaded folder.",
     "lastUpdatedUrl": "http://localhost:5469/api/tool/lastUpdate?toolName=moduleGenerator",
@@ -21,14 +21,14 @@
     "downloadUrl": "http://localhost:5469/api/tool?toolName=postcodeRanges"
   },
   {
-    "title": "SE Address Generator",
+    "title": "Address Generator",
     "description": "This app generates ShipEngine Addresses for the specified country.",
     "howTo": "Download and extract the tool given below.<br>Open the .exe file from the downloaded folder to start the app.",
     "lastUpdatedUrl": "http://localhost:5469/api/tool/lastUpdate?toolName=addressGenerator",
     "downloadUrl": "http://localhost:5469/api/tool?toolName=addressGenerator"
   },
   {
-    "title": "SE Module Validator",
+    "title": "Module Validator",
     "description": "The purpose of this app is to validate the GUIDs of a connect module.",
     "howTo": "Download and extract the tool given below.<br>Open the .exe file from the downloaded folder to start the app.",
     "lastUpdatedUrl": "http://localhost:5469/api/tool/lastUpdate?toolName=moduleValidator",

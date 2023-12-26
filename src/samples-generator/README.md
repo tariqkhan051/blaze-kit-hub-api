@@ -10,13 +10,11 @@ This project will help in generating samples from Postman. Each sample folder wi
 
 ## Changes when deploying module 
 
-1. Update the logger file on deployment. You can check sample logger files on the following path:
-`H:\Documents\ShipEngine\SamplesGenerator\DEV`
+1. Update the logger file on deployment. 
 
-2. Replace {TEAM_NAME} with your team's folder name on BARI-001.
+2. Replace {TEAM_NAME} with your team's folder name.
 
-3. Replace {instance_name} with your module's instance name provided in relay. You can check instance name from here:
-http://dev-35/seapps/deployments  
+3. Replace {instance_name} with your module's instance name. 
 
 ***Note: Do not change anything else in the path provided in sample logger file. Otherwise log files won't be copied to samples folder. 
 
@@ -36,9 +34,9 @@ let opts = {
     requestData: pm.request.toJSON().body.raw, 
     responseFileName: 'test_response', //optional - default value is 'response'
     requestFileName: 'test_request',  //optional - default value is 'request'
-    moduleName: '{instance-name}', //mandatory (will be same as in http://bari-002:3937/{instance-name}/method)
-    logFilePath: '//192.168.1.3/Deployment/SE/{team-name}/Logs', //mandatory, path from where log files will be picked
-    samplesPath: '//192.168.1.3/Deployment/SE/{team-name}/Samples' //mandatory, else samples won't be generated
+    moduleName: '{instance-name}', //mandatory (will be same as in http://blazekithub:3937/{instance-name}/method)
+    logFilePath: '//path/Logs', //mandatory, path from where log files will be picked
+    samplesPath: '//path/Samples' //mandatory, else samples won't be generated
 };
 
 pm.sendRequest({

@@ -9,7 +9,7 @@ const {
 } = require("./helpers");
 
 //Sends the zip file
-function getSETool(req, res) {
+function getTool(req, res) {
   try {
     const toolName = req.query.toolName;
     const toolDetails = getToolDetails(toolName);
@@ -72,4 +72,4 @@ function getToolsData(res) {
   }
 }
 
-module.exports = { getSETool, getLastUpdatedInfo, getToolsData };
+module.exports = { getTool, getLastUpdatedInfo, getToolsData };
